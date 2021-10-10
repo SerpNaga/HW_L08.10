@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: rgb(82, 42, 14);
+}
+h1{
+    margin-left: 10px;
+}
+.coffee{
+    height: 170px;
+    width: 170px;
+    object-fit:cover;
+    object-position: center;
+}
+.row{
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 10px;
+    background: #F3E5AB;
+    border: 5px solid ;
+    border-color: chocolate;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.wr{
+    font-size: 25pt;
+    width: 250px;
+    text-align: center;
+}
